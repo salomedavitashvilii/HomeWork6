@@ -1,0 +1,60 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    border: 10px solid royalblue;
+}
+/* header styles */
+h3{
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    /* width: 1440px; */
+    height: 160px;
+    padding: 52px 98px;
+    /* justify-content: center; */
+    gap: 251px;
+    max-width: 1440px; 
+    width: 100%;
+    margin: 0 auto;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    /* width: 1440px; */
+    height: 160px;
+    /* padding: 52px 98px; */
+    /* justify-content: center; */
+    gap: 25px;
+    /* margin-left: 251px;
+    margin-right: 251px; */
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.border{
+    border-radius: 10px;
+    border: 3px solid #27187F;
+    display: flex;
+    width: 221px;
+    height: 56px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fa-magnifying-glass{
+    font-size: 35px;
+    color: #758BFD;
+}
